@@ -4,6 +4,24 @@
 
     
   <url>
+    <loc>https://stongtong.github.io/2017/03/23/My-Gallery-test2/</loc>
+    <lastmod>2017-03-23T12:40:03.043Z</lastmod>
+    <data>
+        <display>
+        <title>My Gallery====test2</title>
+        <pubTime>2017-03-23T11:55:46.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="photo" url="https://stongtong.github.io/categories/photo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://stongtong.github.io/2017/03/23/My-Gallery-test1/</loc>
     <lastmod>2017-03-23T12:33:00.500Z</lastmod>
     <data>
@@ -57,24 +75,6 @@
            
              
               <breadCrumb title="note" url="https://stongtong.github.io/categories/note/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://stongtong.github.io/2017/03/23/My-Gallery-test2/</loc>
-    <lastmod>2017-03-23T12:30:18.669Z</lastmod>
-    <data>
-        <display>
-        <title>My Gallery====test2</title>
-        <pubTime>2017-03-23T11:55:46.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="photo" url="https://stongtong.github.io/categories/photo/"/>
           
         </display>
     </data>
