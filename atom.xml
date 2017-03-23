@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://stongtong.github.io/"/>
-  <updated>2017-03-23T09:04:13.450Z</updated>
+  <updated>2017-03-23T12:30:18.669Z</updated>
   <id>https://stongtong.github.io/</id>
   
   <author>
@@ -16,11 +16,124 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>My Gallery====test2</title>
+    <link href="https://stongtong.github.io/2017/03/23/My-Gallery-test2/"/>
+    <id>https://stongtong.github.io/2017/03/23/My-Gallery-test2/</id>
+    <published>2017-03-23T11:55:46.000Z</published>
+    <updated>2017-03-23T12:30:18.669Z</updated>
+    
+    <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i.imgur.com/4zhb8V1.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/SNZyo2i.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/oT1rcp1.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/AIPJH4m.jpg" alt=""></div></div></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;widt
+    
+    </summary>
+    
+      <category term="photo" scheme="https://stongtong.github.io/categories/photo/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My Gallery====test1</title>
+    <link href="https://stongtong.github.io/2017/03/23/My-Gallery-test1/"/>
+    <id>https://stongtong.github.io/2017/03/23/My-Gallery-test1/</id>
+    <published>2017-03-23T11:23:49.000Z</published>
+    <updated>2017-03-23T12:33:00.500Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="My-Gallery-test"><a href="#My-Gallery-test" class="headerlink" title="My Gallery====test"></a>My Gallery====test</h1><p>该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。</p>
+<h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><ol>
+<li>HTML方式<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><blockquote class="blockquote-center">该部分为文字居中</blockquote><br><a id="more"></a></p>
+<ol>
+<li>内置标签方式<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% centerquote %&#125;blah blah blah&#123;% endcenterquote %&#125;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<blockquote class="blockquote-center"><p>居中文字标签模式</p>
+</blockquote>
+<p>标签简写模式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;!-- 标签别名 --&gt;</div><div class="line">&#123;% cq %&#125; blah blah blah &#123;% endcq %&#125;</div></pre></td></tr></table></figure></p>
+<h3 id="突破宽度限制图片"><a href="#突破宽度限制图片" class="headerlink" title="突破宽度限制图片"></a>突破宽度限制图片</h3><p>当使用此标签引用图片时，图片将自动扩大 26%，并突破文章容器的宽度。 此标签使用于需要突出显示的图片, 图片的扩大与容器的偏差从视觉上提升图片的吸引力。 此标签有两种调用方式（详细参看底下示例）：</p>
+<ol>
+<li>HTML方式：使用这种方式时，为 img 添加属性 class=”full-image”即可。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><img src="http://i.imgur.com/drFzc4r.jpg" class="full-image"><br><!-- more --></p>
+<ol>
+<li>标签方式：使用 fullimage 或者 简写 fi， 并传递图片地址、 alt 和 title 属性即可。 属性之间以逗号分隔。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% fullimage /image-url, alt, title %&#125;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="http://i.imgur.com/drFzc4r.jpg" class="full-image" alt="这里是alt" title="这是图片名称"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span>
+<p>可以简写为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;!-- 别名 --&gt;</div><div class="line">&#123;% fi /image-url, alt, title %&#125;</div></pre></td></tr></table></figure></p>
+<ol>
+<li>这里是markdown自带的显示：<br><img src="http://i.imgur.com/drFzc4r.jpg" alt="图片名称显示在哪"></li>
+</ol>
+<p>以上三种比较，很是明显。</p>
+<h3 id="bootstrap-callout"><a href="#bootstrap-callout" class="headerlink" title="bootstrap callout"></a>bootstrap callout</h3><p>使用方式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% note class_name %&#125; Content (md partial supported) &#123;% endnote %&#125;</div></pre></td></tr></table></figure></p>
+<p>其中，class_name 可以是以下列表中的一个值：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">default</div><div class="line">primary</div><div class="line">success</div><div class="line">info</div><div class="line">warning</div><div class="line">danger</div></pre></td></tr></table></figure></p>
+<p>演示效果如下所示：<br><div class="note default"><p>此类别为default </p>
+</div>
+<div class="note primary"><p>此类别为primary </p>
+</div><br><div class="note success"><p>此类别为success </p>
+</div>
+<div class="note info"><p>此类别为info </p>
+</div><br><div class="note warning"><p>此类别为warning</p>
+</div>
+<div class="note danger"><p>此类别为danger</p>
+</div></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;My-Gallery-test&quot;&gt;&lt;a href=&quot;#My-Gallery-test&quot; class=&quot;headerlink&quot; title=&quot;My Gallery====test&quot;&gt;&lt;/a&gt;My Gallery====test&lt;/h1&gt;&lt;p&gt;该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。&lt;/p&gt;
+&lt;h3 id=&quot;字体居中&quot;&gt;&lt;a href=&quot;#字体居中&quot; class=&quot;headerlink&quot; title=&quot;字体居中&quot;&gt;&lt;/a&gt;字体居中&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;HTML方式&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;blockquote class=&amp;quot;blockquote-center&amp;quot;&amp;gt;该部分为文字居中&amp;lt;/blockquote&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="photo" scheme="https://stongtong.github.io/categories/photo/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo常用命令记录</title>
+    <link href="https://stongtong.github.io/2016/08/30/Hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/"/>
+    <id>https://stongtong.github.io/2016/08/30/Hexo常用命令记录/</id>
+    <published>2016-08-30T08:52:43.000Z</published>
+    <updated>2017-03-23T12:32:41.889Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hexo常用命令记录"><a href="#Hexo常用命令记录" class="headerlink" title="Hexo常用命令记录"></a>Hexo常用命令记录</h1><h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">hexo n &quot;我的博客&quot; == hexo new &quot;我的博客&quot; //新建文章</div><div class="line">hexo new page &quot;我的类别&quot;  //新建目录下的page</div><div class="line">hexo p == hexo publish    //发布草稿到站点,其用法为hexo publish [layout] &lt;title&gt;</div><div class="line">hexo g == hexo generate  //生成</div><div class="line">hexo s == hexo server  //启动服务，当端口冲突时，其可以使用参数p更改端口，具体用法为hexo s -p 端口号</div><div class="line">hexo d == hexo deploy  //部署</div><div class="line">hexo c == hexo clean  //清楚生成文件</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="hexo中使用模板"><a href="#hexo中使用模板" class="headerlink" title="hexo中使用模板"></a>hexo中使用模板</h3><p>在hexo根目录下的scaffolds文件下，有生成创建文章的模板，在生成时，可以进行模板指定：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new photo &quot;My Gallery&quot;  //photo为指定模板，创建时其会到scaffolds文件下查找photo.md文件，进行相册的创建。</div></pre></td></tr></table></figure></p>
+<h3 id="前置声明"><a href="#前置声明" class="headerlink" title="前置声明"></a>前置声明</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">layout: 布局，默认为post</div><div class="line">title: 文章名称</div><div class="line">date: 创建时间</div><div class="line">updated: 修改时间</div><div class="line">comments: 评论开关</div><div class="line">tags: 标签</div><div class="line">categories: 类别</div><div class="line">permalink: 永久链接</div></pre></td></tr></table></figure>
+<h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>基本就是这么多了，以后用到在继续添加。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Hexo常用命令记录&quot;&gt;&lt;a href=&quot;#Hexo常用命令记录&quot; class=&quot;headerlink&quot; title=&quot;Hexo常用命令记录&quot;&gt;&lt;/a&gt;Hexo常用命令记录&lt;/h1&gt;&lt;h3 id=&quot;简写&quot;&gt;&lt;a href=&quot;#简写&quot; class=&quot;headerlink&quot; title=&quot;简写&quot;&gt;&lt;/a&gt;简写&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo n &amp;quot;我的博客&amp;quot; == hexo new &amp;quot;我的博客&amp;quot; //新建文章&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo new page &amp;quot;我的类别&amp;quot;  //新建目录下的page&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo p == hexo publish    //发布草稿到站点,其用法为hexo publish [layout] &amp;lt;title&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo g == hexo generate  //生成&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo s == hexo server  //启动服务，当端口冲突时，其可以使用参数p更改端口，具体用法为hexo s -p 端口号&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo d == hexo deploy  //部署&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo c == hexo clean  //清楚生成文件&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="https://stongtong.github.io/categories/note/"/>
+    
+    
+      <category term="Hexo" scheme="https://stongtong.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>github搭建各站记录</title>
     <link href="https://stongtong.github.io/2016/08/29/GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
     <id>https://stongtong.github.io/2016/08/29/GitHub搭建个人网站记录/</id>
     <published>2016-08-29T08:52:43.000Z</published>
-    <updated>2017-03-23T09:04:13.450Z</updated>
+    <updated>2017-03-23T12:32:25.395Z</updated>
     
     <content type="html"><![CDATA[<p><link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet"></p>
 <h1 id="github搭建各站记录"><a href="#github搭建各站记录" class="headerlink" title="github搭建各站记录"></a>github搭建各站记录</h1><p>本次搭建主要使用hexo blog自动发布完成</p>
@@ -28,6 +141,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure>
 <p>2、在指定目录下初始化hexo目录， </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo ini hexo</div><div class="line">cd hexo</div><div class="line">npm install</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <p>这里的目录名称为hexo,将以上软件安装好之后，将原hexo文件夹下的文件目录统一存放在新建的hexo文件下即可，基本的框架搭建完成。</p>
 <h3 id="部署功能"><a href="#部署功能" class="headerlink" title="部署功能"></a>部署功能</h3><p>要将写好的文件进行部署，需要安装插件，安装步骤为</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
@@ -62,8 +176,12 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;link href=&quot;http://kevinburke.bitbucket.org/markdowncss/markdown.css&quot; rel=&quot;stylesheet&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;github搭建各站记录&quot;&gt;&lt;a href=&quot;#github搭建各站记录&quot;
+      &lt;p&gt;&lt;link href=&quot;http://kevinburke.bitbucket.org/markdowncss/markdown.css&quot; rel=&quot;stylesheet&quot;&gt;&lt;/link&gt;&lt;/p&gt;
+&lt;h1 id=&quot;github搭建各站记录&quot;&gt;&lt;a href=&quot;#github搭建各站记录&quot; class=&quot;headerlink&quot; title=&quot;github搭建各站记录&quot;&gt;&lt;/a&gt;github搭建各站记录&lt;/h1&gt;&lt;p&gt;本次搭建主要使用hexo blog自动发布完成&lt;/p&gt;
+&lt;h3 id=&quot;主要步骤&quot;&gt;&lt;a href=&quot;#主要步骤&quot; class=&quot;headerlink&quot; title=&quot;主要步骤&quot;&gt;&lt;/a&gt;主要步骤&lt;/h3&gt;&lt;p&gt;1、下载node js和git，安装完成后，在node js中利用npm进行hexo的安装：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm install -g hexo-cli&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;2、在指定目录下初始化hexo目录， &lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo ini hexo&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;cd hexo&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
