@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://stongtong.github.io/"/>
-  <updated>2017-03-22T13:21:05.199Z</updated>
+  <updated>2017-03-23T02:56:54.954Z</updated>
   <id>https://stongtong.github.io/</id>
   
   <author>
@@ -14,6 +14,67 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://stongtong.github.io/2017/03/23/GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
+    <id>https://stongtong.github.io/2017/03/23/GitHub搭建个人网站记录/</id>
+    <published>2017-03-23T03:03:48.453Z</published>
+    <updated>2017-03-23T02:56:54.954Z</updated>
+    
+    <content type="html"><![CDATA[<p>#github搭建各站记录<br>本次搭建主要使用hexo blog自动发布完成</p>
+<p>###主要步骤<br>1、下载node js和git，安装完成后，在node js中利用npm进行hexo的安装：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure>
+<p>2、在指定目录下初始化hexo目录， </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo ini hexo</div><div class="line">cd hexo</div><div class="line">npm install</div></pre></td></tr></table></figure>
+<p>这里的目录名称为hexo,将以上软件安装好之后，将原hexo文件夹下的文件目录统一存放在新建的hexo文件下即可，基本的框架搭建完成。</p>
+<p>###部署功能<br>要将写好的文件进行部署，需要安装插件，安装步骤为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+<p>安装完毕使用hexo d命令进行部署。</p>
+<p>###RSS功能和mapsite功能<br>进行Rss功能扩展需要安装插件，</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-feed --save</div></pre></td></tr></table></figure>
+<p>安装完毕后，会在hexo目录中出现node_modules文件夹，然后需要在hexo配置文件和主题配置文件中进行配置如下：<br>1、hexo配置文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">feed:</div><div class="line">  type: atom</div><div class="line">  path: atom.xml</div><div class="line">  limit: 20</div><div class="line">  hub:</div></pre></td></tr></table></figure></p>
+<p>2、主题配置文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rss: /atom.xml</div></pre></td></tr></table></figure></p>
+<p>然后重启博客，在生成文件时，就会产生atom.xml文件，显示安装成功。<br>安装百度map-site功能<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-baidu-mapsite --save</div></pre></td></tr></table></figure></p>
+<p>1、在hexo配置文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">baidusitemap:</div><div class="line">    path: baidusitemap.xml</div></pre></td></tr></table></figure></p>
+<p>2、在主题配置文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sitemap: /baidusitemap.xml</div></pre></td></tr></table></figure></p>
+<p>重启博客后，点击查看。</p>
+<p>###百度统计功能<br>注册百度账号，获取下图中指定位置编码，在主题配置文件中进行设置即可。<br><img src="http://i.imgur.com/Si3wkQn.png" alt=""></p>
+<p>###自定义站点搜索<br>安装插件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-searchdb --save</div></pre></td></tr></table></figure></p>
+<p>1、在hexo配置文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: post</div><div class="line">  format: html</div><div class="line">  limit: 10000</div></pre></td></tr></table></figure></p>
+<p>2、在主题文件中配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">local_search:</div><div class="line">  enable: true</div></pre></td></tr></table></figure></p>
+<p>###配置分类和标签<br>next主题中的分类和标签要通过新建index文件来产生。具体操作如下<br>运行 hexo new page tags 命令后会产生 source/tags/index.md 这个文件，你要修改这个文件，在里面添加一句话type: “tags”。<br>类似于这样：</p>
+<p>title: “tags”<br>date: 2015-03-24 08:58:02</p>
+<p>type: “tags”</p>
+<p>然后运行服务器即可访问tags页面了。</p>
+<p>在 2015-05-29 06:22:57，”Leon Lin” notifications@github.com 写道：</p>
+<p>$ cd path/to/hexo<br>$ hexo new page tags<br>$ hexo new page categories<br>$ vim source/tags/index.md</p>
+<p>add line: type: “tags”</p>
+<p>$ vim source/categories/index.md</p>
+<p>add line: type: “categories”</p>
+<p>$ hexo d -g</p>
+<p>做完之後產生的 /tags/index.html 裡面沒有顯示出所用的tag…</p>
+<p>###添加评论<br>next主题支持多说、友言、畅言、来必力等评论系统，这里说一下，多说已经与17年6月关闭了自己的评论系统，原因估计是不赚钱，友言的评论系统很是难用这里也不多说了，畅言系统要求必须要有国内的ICP备案号，这一点比较坑，自己搭个各站，还要去备案，太过复杂，这里就只剩下来必力了，不过这几种，我都有尝试，下面都会一一介绍。</p>
+<p>在友言注册账号，在主题配置文件中找到友言配置项，并输入uid即可<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">youyan_uid: @@@@@@@@</div></pre></td></tr></table></figure></p>
+<p>友言账号<br><img src="http://i.imgur.com/Cls24sQ.png" alt=""></p>
+<p>畅言一样，需要注册，贴入ID即可<br><img src="http://i.imgur.com/tLTdMtg.png" alt=""></p>
+<p>其他的都大同小异，这里不再多说了</p>
+<p>###添加阅读统计<br>在leancloud上注册账号，本账号具体为<br><img src="http://i.imgur.com/t9Aex4E.png" alt=""></p>
+<p>然后新建一个应用，应用的名称可以随便选取，在该应用中新建一个class，class权限设置为最大，class名称为Counter，然后进入设置，可以获取ID和Key，如下图：<br><img src="http://i.imgur.com/VfmJsnt.png" alt=""></p>
+<p>获取之后，在主题配置文件中进行设定：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">leancloud_visitors:</div><div class="line">  enable: true</div><div class="line">  app_id: C5p2It82joj83Mzm0milY5BK-gzGzoHsz</div><div class="line">  app_key: iDq8etLnrVzoVdfbWoOOow4L</div></pre></td></tr></table></figure></p>
+<p>重启blog即可。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#github搭建各站记录&lt;br&gt;本次搭建主要使用hexo blog自动发布完成&lt;/p&gt;
+&lt;p&gt;###主要步骤&lt;br&gt;1、下载node js和git，安装完成后，在node js中利用npm进行hexo的安装：&lt;/p&gt;
+&lt;figure class=&quot;highlight pl
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
