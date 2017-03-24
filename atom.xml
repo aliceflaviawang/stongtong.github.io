@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://stongtong.github.io/"/>
-  <updated>2017-03-23T12:40:03.043Z</updated>
+  <updated>2017-03-24T15:22:29.605Z</updated>
   <id>https://stongtong.github.io/</id>
   
   <author>
@@ -16,94 +16,54 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>My Gallery====test2</title>
-    <link href="https://stongtong.github.io/2017/03/23/My-Gallery-test2/"/>
-    <id>https://stongtong.github.io/2017/03/23/My-Gallery-test2/</id>
-    <published>2017-03-23T11:55:46.000Z</published>
-    <updated>2017-03-23T12:40:03.043Z</updated>
-    
-    <content type="html"><![CDATA[<p>开始位置<br><div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i.imgur.com/4zhb8V1.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/SNZyo2i.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/oT1rcp1.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/AIPJH4m.jpg" alt=""></div></div></div></div><br><a id="more"></a></p>
-<p><img src="http://i.imgur.com/AIPJH4m.jpg" alt=""><img src="http://i.imgur.com/AIPJH4m.jpg" alt=""><img src="http://i.imgur.com/AIPJH4m.jpg" alt=""><img src="http://i.imgur.com/AIPJH4m.jpg" alt=""><img src="http://i.imgur.com/AIPJH4m.jpg" alt=""><img src="http://i.imgur.com/AIPJH4m.jpg" alt=""><img src="http://i.imgur.com/AIPJH4m.jpg" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;开始位置&lt;br&gt;&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 100%;&quot;&gt;&lt;img src=&quot;http://i.imgur.com/4zhb8V1.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 33.333333333333336%;&quot;&gt;&lt;img src=&quot;http://i.imgur.com/SNZyo2i.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 33.333333333333336%;&quot;&gt;&lt;img src=&quot;http://i.imgur.com/oT1rcp1.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 33.333333333333336%;&quot;&gt;&lt;img src=&quot;http://i.imgur.com/AIPJH4m.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="photo" scheme="https://stongtong.github.io/categories/photo/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Next主题内置标签</title>
     <link href="https://stongtong.github.io/2017/03/23/Next%E4%B8%BB%E9%A2%98%E5%86%85%E7%BD%AE%E6%A0%87%E7%AD%BE/"/>
     <id>https://stongtong.github.io/2017/03/23/Next主题内置标签/</id>
     <published>2017-03-23T11:23:49.000Z</published>
-    <updated>2017-03-24T07:33:44.700Z</updated>
+    <updated>2017-03-24T15:22:29.605Z</updated>
     
     <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a><blockquote class="blockquote-center"><p>Next主题内置标签 </p>
 </blockquote></h1><p>该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。</p>
-<h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><ol>
-<li>HTML方式<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;</div></pre></td></tr></table></figure>
-</li>
-</ol>
+<h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><h4 id="HTML方式"><a href="#HTML方式" class="headerlink" title="HTML方式"></a>HTML方式</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;</div></pre></td></tr></table></figure>
 <blockquote class="blockquote-center">该部分为文字居中</blockquote>
 
-<ol>
-<li>内置标签方式<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% centerquote %&#125;blah blah blah&#123;% endcenterquote %&#125;</div></pre></td></tr></table></figure>
-</li>
-</ol>
+<h4 id="内置标签方式"><a href="#内置标签方式" class="headerlink" title="内置标签方式"></a>内置标签方式</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% centerquote %&#125;blah blah blah&#123;% endcenterquote %&#125;</div></pre></td></tr></table></figure>
 <blockquote class="blockquote-center"><p>居中文字标签模式</p>
 </blockquote>
 <p>标签简写模式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;!-- 标签别名 --&gt;</div><div class="line">&#123;% cq %&#125; blah blah blah &#123;% endcq %&#125;</div></pre></td></tr></table></figure></p>
 <a id="more"></a>
 <h3 id="突破宽度限制图片"><a href="#突破宽度限制图片" class="headerlink" title="突破宽度限制图片"></a>突破宽度限制图片</h3><p>当使用此标签引用图片时，图片将自动扩大 26%，并突破文章容器的宽度。 此标签使用于需要突出显示的图片, 图片的扩大与容器的偏差从视觉上提升图片的吸引力。 此标签有两种调用方式（详细参看底下示例）：</p>
-<ol>
-<li>HTML方式：使用这种方式时，为 img 添加属性 class=”full-image”即可。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt;</div></pre></td></tr></table></figure>
-</li>
-</ol>
+<h4 id="HTML方式：使用这种方式时，为-img-添加属性-class-”full-image”即可。"><a href="#HTML方式：使用这种方式时，为-img-添加属性-class-”full-image”即可。" class="headerlink" title="HTML方式：使用这种方式时，为 img 添加属性 class=”full-image”即可。"></a>HTML方式：使用这种方式时，为 img 添加属性 class=”full-image”即可。</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt;</div></pre></td></tr></table></figure>
 <p><img src="http://i.imgur.com/drFzc4r.jpg" class="full-image"><br><!-- more --></p>
-<ol>
-<li>标签方式：使用 fullimage 或者 简写 fi， 并传递图片地址、 alt 和 title 属性即可。 属性之间以逗号分隔。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% fullimage /image-url, alt, title %&#125;</div></pre></td></tr></table></figure>
-</li>
-</ol>
+<h4 id="标签方式：使用-fullimage-或者-简写-fi，-并传递图片地址、-alt-和-title-属性即可。-属性之间以逗号分隔。"><a href="#标签方式：使用-fullimage-或者-简写-fi，-并传递图片地址、-alt-和-title-属性即可。-属性之间以逗号分隔。" class="headerlink" title="标签方式：使用 fullimage 或者 简写 fi， 并传递图片地址、 alt 和 title 属性即可。 属性之间以逗号分隔。"></a>标签方式：使用 fullimage 或者 简写 fi， 并传递图片地址、 alt 和 title 属性即可。 属性之间以逗号分隔。</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% fullimage /image-url, alt, title %&#125;</div></pre></td></tr></table></figure>
 <span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="http://i.imgur.com/drFzc4r.jpg" class="full-image" alt="这里是alt" title="这是图片名称"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span>
 <p>可以简写为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;!-- 别名 --&gt;</div><div class="line">&#123;% fi /image-url, alt, title %&#125;</div></pre></td></tr></table></figure></p>
-<ol>
-<li>这里是markdown自带的显示：<br><img src="http://i.imgur.com/drFzc4r.jpg" alt="图片名称显示在哪"></li>
-</ol>
+<h4 id="这里是markdown自带的显示："><a href="#这里是markdown自带的显示：" class="headerlink" title="这里是markdown自带的显示："></a>这里是markdown自带的显示：</h4><p><img src="http://i.imgur.com/drFzc4r.jpg" alt="图片名称显示在哪"></p>
 <p>以上三种比较，很是明显。</p>
-<h3 id="bootstrap-callout"><a href="#bootstrap-callout" class="headerlink" title="bootstrap callout"></a>bootstrap callout</h3><p>使用方式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% note class_name %&#125; Content (md partial supported) &#123;% endnote %&#125;</div></pre></td></tr></table></figure></p>
+<h3 id="bootstrap-callout"><a href="#bootstrap-callout" class="headerlink" title="bootstrap callout"></a>bootstrap callout</h3><h4 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% note class_name %&#125; Content (md partial supported) &#123;% endnote %&#125;</div></pre></td></tr></table></figure>
 <p>其中，class_name 可以是以下列表中的一个值：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">default</div><div class="line">primary</div><div class="line">success</div><div class="line">info</div><div class="line">warning</div><div class="line">danger</div></pre></td></tr></table></figure></p>
-<p>演示效果如下所示：<br><div class="note default"><p>此类别为default </p>
+<h4 id="演示效果"><a href="#演示效果" class="headerlink" title="演示效果"></a>演示效果</h4><div class="note default"><p>此类别为default </p>
 </div>
 <div class="note primary"><p>此类别为primary </p>
-</div><br><div class="note success"><p>此类别为success </p>
+</div>
+<div class="note success"><p>此类别为success </p>
 </div>
 <div class="note info"><p>此类别为info </p>
-</div><br><div class="note warning"><p>此类别为warning</p>
+</div>
+<div class="note warning"><p>此类别为warning</p>
 </div>
 <div class="note danger"><p>此类别为danger</p>
-</div></p>
+</div>
 ]]></content>
     
     <summary type="html">
     
       &lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;Next主题内置标签 &lt;/p&gt;
 &lt;/blockquote&gt;&lt;/h1&gt;&lt;p&gt;该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。&lt;/p&gt;
-&lt;h3 id=&quot;字体居中&quot;&gt;&lt;a href=&quot;#字体居中&quot; class=&quot;headerlink&quot; title=&quot;字体居中&quot;&gt;&lt;/a&gt;字体居中&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;HTML方式&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;blockquote class=&amp;quot;blockquote-center&amp;quot;&amp;gt;该部分为文字居中&amp;lt;/blockquote&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h3 id=&quot;字体居中&quot;&gt;&lt;a href=&quot;#字体居中&quot; class=&quot;headerlink&quot; title=&quot;字体居中&quot;&gt;&lt;/a&gt;字体居中&lt;/h3&gt;&lt;h4 id=&quot;HTML方式&quot;&gt;&lt;a href=&quot;#HTML方式&quot; class=&quot;headerlink&quot; title=&quot;HTML方式&quot;&gt;&lt;/a&gt;HTML方式&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;blockquote class=&amp;quot;blockquote-center&amp;quot;&amp;gt;该部分为文字居中&amp;lt;/blockquote&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;
 
-&lt;ol&gt;
-&lt;li&gt;内置标签方式&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;#123;% centerquote %&amp;#125;blah blah blah&amp;#123;% endcenterquote %&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h4 id=&quot;内置标签方式&quot;&gt;&lt;a href=&quot;#内置标签方式&quot; class=&quot;headerlink&quot; title=&quot;内置标签方式&quot;&gt;&lt;/a&gt;内置标签方式&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;#123;% centerquote %&amp;#125;blah blah blah&amp;#123;% endcenterquote %&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;居中文字标签模式&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;标签简写模式&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;!-- 标签别名 --&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#123;% cq %&amp;#125; blah blah blah &amp;#123;% endcq %&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -112,6 +72,10 @@
     
       <category term="note" scheme="https://stongtong.github.io/categories/note/"/>
     
+    
+      <category term="next" scheme="https://stongtong.github.io/tags/next/"/>
+    
+      <category term="主题" scheme="https://stongtong.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
@@ -139,6 +103,30 @@
     
     
       <category term="Hexo" scheme="https://stongtong.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://stongtong.github.io/2016/08/29/Hello%20World/"/>
+    <id>https://stongtong.github.io/2016/08/29/Hello World/</id>
+    <published>2016-08-29T08:52:43.000Z</published>
+    <updated>2017-03-23T08:00:49.665Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to XTong note.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to XTong note.&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="life" scheme="https://stongtong.github.io/categories/life/"/>
+    
+    
+      <category term="life" scheme="https://stongtong.github.io/tags/life/"/>
     
   </entry>
   
@@ -209,26 +197,29 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://stongtong.github.io/2016/08/29/Hello%20World/"/>
-    <id>https://stongtong.github.io/2016/08/29/Hello World/</id>
-    <published>2016-08-29T08:52:43.000Z</published>
-    <updated>2017-03-23T08:00:49.665Z</updated>
+    <title>重  庆</title>
+    <link href="https://stongtong.github.io/2016/05/05/%E9%87%8D-%E5%BA%86/"/>
+    <id>https://stongtong.github.io/2016/05/05/重-庆/</id>
+    <published>2016-05-05T12:45:12.000Z</published>
+    <updated>2017-03-24T15:23:35.284Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to XTong note.</p>
+    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a><blockquote class="blockquote-center"><p>重 庆<font size="1px">……..赵熙</font><br>自古西南镇，沧江日夜东。<br>水围巴子国，山压禹王宫。<br>鼓角人声外，华夷市气中。<br>石城非广武，何处问庞雄。 </p>
+</blockquote></h1><p>满怀期待，计划一个月的重庆之旅就这样开启了……<br><div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i.imgur.com/ZDelyKr.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/ZPdHg8M.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/oENJOou.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/mkqumaO.jpg" alt=""></div></div></div></div><br><a id="more"></a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to XTong note.&lt;/p&gt;
-
+      &lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;重 庆&lt;font size=1px&gt;……..赵熙&lt;/font&gt;&lt;br&gt;自古西南镇，沧江日夜东。&lt;br&gt;水围巴子国，山压禹王宫。&lt;br&gt;鼓角人声外，华夷市气中。&lt;br&gt;石城非广武，何处问庞雄。 &lt;/p&gt;
+&lt;/blockquote&gt;&lt;/h1&gt;&lt;p&gt;满怀期待，计划一个月的重庆之旅就这样开启了……&lt;br&gt;&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 100%;&quot;&gt;&lt;img src=&quot;http://i.imgur.com/ZDelyKr.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 33.333333333333336%;&quot;&gt;&lt;img src=&quot;http://i.imgur.com/ZPdHg8M.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 33.333333333333336%;&quot;&gt;&lt;img src=&quot;http://i.imgur.com/oENJOou.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 33.333333333333336%;&quot;&gt;&lt;img src=&quot;http://i.imgur.com/mkqumaO.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;
     
     </summary>
     
-      <category term="life" scheme="https://stongtong.github.io/categories/life/"/>
+      <category term="photo" scheme="https://stongtong.github.io/categories/photo/"/>
     
     
-      <category term="life" scheme="https://stongtong.github.io/tags/life/"/>
+      <category term="重庆" scheme="https://stongtong.github.io/tags/%E9%87%8D%E5%BA%86/"/>
+    
+      <category term="旅行" scheme="https://stongtong.github.io/tags/%E6%97%85%E8%A1%8C/"/>
     
   </entry>
   

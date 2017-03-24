@@ -3,16 +3,9 @@
   
     
     <entry>
-      <title><![CDATA[My Gallery====test2]]></title>
-      <url>%2F2017%2F03%2F23%2FMy-Gallery-test2%2F</url>
-      <content type="text"><![CDATA[开始位置]]></content>
-    </entry>
-
-    
-    <entry>
       <title><![CDATA[Next主题内置标签]]></title>
       <url>%2F2017%2F03%2F23%2FNext%E4%B8%BB%E9%A2%98%E5%86%85%E7%BD%AE%E6%A0%87%E7%AD%BE%2F</url>
-      <content type="text"><![CDATA[Next主题内置标签 该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。 字体居中 HTML方式1&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt; 该部分为文字居中 内置标签方式1&#123;% centerquote %&#125;blah blah blah&#123;% endcenterquote %&#125; 居中文字标签模式 标签简写模式12&lt;!-- 标签别名 --&gt;&#123;% cq %&#125; blah blah blah &#123;% endcq %&#125; 突破宽度限制图片当使用此标签引用图片时，图片将自动扩大 26%，并突破文章容器的宽度。 此标签使用于需要突出显示的图片, 图片的扩大与容器的偏差从视觉上提升图片的吸引力。 此标签有两种调用方式（详细参看底下示例）： HTML方式：使用这种方式时，为 img 添加属性 class=”full-image”即可。1&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt; 标签方式：使用 fullimage 或者 简写 fi， 并传递图片地址、 alt 和 title 属性即可。 属性之间以逗号分隔。1&#123;% fullimage /image-url, alt, title %&#125; 可以简写为：12&lt;!-- 别名 --&gt;&#123;% fi /image-url, alt, title %&#125; 这里是markdown自带的显示： 以上三种比较，很是明显。 bootstrap callout使用方式1&#123;% note class_name %&#125; Content (md partial supported) &#123;% endnote %&#125; 其中，class_name 可以是以下列表中的一个值：123456defaultprimarysuccessinfowarningdanger 演示效果如下所示：此类别为default 此类别为primary 此类别为success 此类别为info 此类别为warning 此类别为danger]]></content>
+      <content type="text"><![CDATA[Next主题内置标签 该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。 字体居中HTML方式1&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt; 该部分为文字居中 内置标签方式1&#123;% centerquote %&#125;blah blah blah&#123;% endcenterquote %&#125; 居中文字标签模式 标签简写模式12&lt;!-- 标签别名 --&gt;&#123;% cq %&#125; blah blah blah &#123;% endcq %&#125; 突破宽度限制图片当使用此标签引用图片时，图片将自动扩大 26%，并突破文章容器的宽度。 此标签使用于需要突出显示的图片, 图片的扩大与容器的偏差从视觉上提升图片的吸引力。 此标签有两种调用方式（详细参看底下示例）： HTML方式：使用这种方式时，为 img 添加属性 class=”full-image”即可。1&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt; 标签方式：使用 fullimage 或者 简写 fi， 并传递图片地址、 alt 和 title 属性即可。 属性之间以逗号分隔。1&#123;% fullimage /image-url, alt, title %&#125; 可以简写为：12&lt;!-- 别名 --&gt;&#123;% fi /image-url, alt, title %&#125; 这里是markdown自带的显示： 以上三种比较，很是明显。 bootstrap callout使用方式1&#123;% note class_name %&#125; Content (md partial supported) &#123;% endnote %&#125; 其中，class_name 可以是以下列表中的一个值：123456defaultprimarysuccessinfowarningdanger 演示效果此类别为default 此类别为primary 此类别为success 此类别为info 此类别为warning 此类别为danger]]></content>
     </entry>
 
     
@@ -24,6 +17,13 @@
 
     
     <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>%2F2016%2F08%2F29%2FHello%20World%2F</url>
+      <content type="text"><![CDATA[Welcome to XTong note.]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[github搭建各站记录]]></title>
       <url>%2F2016%2F08%2F29%2FGitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95%2F</url>
       <content type="text"><![CDATA[github搭建各站记录本次搭建主要使用hexo blog自动发布完成 主要步骤1、下载node js和git，安装完成后，在node js中利用npm进行hexo的安装： 1npm install -g hexo-cli 2、在指定目录下初始化hexo目录， 123hexo ini hexocd hexonpm install 这里的目录名称为hexo,将以上软件安装好之后，将原hexo文件夹下的文件目录统一存放在新建的hexo文件下即可，基本的框架搭建完成。 部署功能要将写好的文件进行部署，需要安装插件，安装步骤为 1npm install hexo-deployer-git --save 安装完毕使用hexo d命令进行部署。 RSS功能和mapsite功能进行Rss功能扩展需要安装插件， 1npm install hexo-generator-feed --save 安装完毕后，会在hexo目录中出现node_modules文件夹，然后需要在hexo配置文件和主题配置文件中进行配置如下：1、hexo配置文件12345feed: type: atom path: atom.xml limit: 20 hub: 2、主题配置文件1rss: /atom.xml 然后重启博客，在生成文件时，就会产生atom.xml文件，显示安装成功。安装百度map-site功能1npm install hexo-generator-baidu-mapsite --save 1、在hexo配置文件12baidusitemap: path: baidusitemap.xml 2、在主题配置文件1sitemap: /baidusitemap.xml 重启博客后，点击查看。 百度统计功能注册百度账号，获取下图中指定位置编码，在主题配置文件中进行设置即可。 自定义站点搜索安装插件1npm install hexo-generator-searchdb --save 1、在hexo配置文件12345search: path: search.xml field: post format: html limit: 10000 2、在主题文件中配置12local_search: enable: true 配置分类和标签next主题中的分类和标签要通过新建index文件来产生。具体操作如下运行 hexo new page tags 命令后会产生 source/tags/index.md 这个文件，你要修改这个文件，在里面添加一句话type: “tags”。123title: &quot;tags&quot;date: 2015-03-24 08:58:02 添加：1type: &quot;tags&quot; 然后运行服务器即可访问tags页面了。 在 2015-05-29 06:22:57，”Leon Lin” notifications@github.com 写道：123456789101112$ cd path/to/hexo$ hexo new page tags$ hexo new page categories$ vim source/tags/index.mdadd line: type: &quot;tags&quot;$ vim source/categories/index.mdadd line: type: &quot;categories&quot;$ hexo d -g 做完之後產生的 /tags/index.html 裡面沒有顯示出所用的tag… 添加评论next主题支持多说、友言、畅言、来必力等评论系统，这里说一下，多说已经与17年6月关闭了自己的评论系统，原因估计是不赚钱，友言的评论系统很是难用这里也不多说了，畅言系统要求必须要有国内的ICP备案号，这一点比较坑，自己搭个各站，还要去备案，太过复杂，这里就只剩下来必力了，不过这几种，我都有尝试，下面都会一一介绍。 在友言注册账号，在主题配置文件中找到友言配置项，并输入uid即可1youyan_uid: @@@@@@@@ 友言账号 畅言一样，需要注册，贴入ID即可 其他的都大同小异，这里不再多说了 添加阅读统计在leancloud上注册账号，本账号具体为 然后新建一个应用，应用的名称可以随便选取，在该应用中新建一个class，class权限设置为最大，class名称为Counter，然后进入设置，可以获取ID和Key，如下图： 获取之后，在主题配置文件中进行设定：1234leancloud_visitors: enable: true app_id: C5p2It82joj83Mzm0milY5BK-gzGzoHsz app_key: iDq8etLnrVzoVdfbWoOOow4L 重启blog即可。]]></content>
@@ -31,9 +31,9 @@
 
     
     <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>%2F2016%2F08%2F29%2FHello%20World%2F</url>
-      <content type="text"><![CDATA[Welcome to XTong note.]]></content>
+      <title><![CDATA[重 庆]]></title>
+      <url>%2F2016%2F05%2F05%2F%E9%87%8D-%E5%BA%86%2F</url>
+      <content type="text"><![CDATA[重 庆……..赵熙自古西南镇，沧江日夜东。水围巴子国，山压禹王宫。鼓角人声外，华夷市气中。石城非广武，何处问庞雄。 满怀期待，计划一个月的重庆之旅就这样开启了……]]></content>
     </entry>
 
     
