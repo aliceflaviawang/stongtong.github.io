@@ -38,18 +38,20 @@
   </entry>
   
   <entry>
-    <title>My Gallery====test1</title>
-    <link href="https://stongtong.github.io/2017/03/23/My-Gallery-test1/"/>
-    <id>https://stongtong.github.io/2017/03/23/My-Gallery-test1/</id>
+    <title>Next主题内置标签</title>
+    <link href="https://stongtong.github.io/2017/03/23/Next%E4%B8%BB%E9%A2%98%E5%86%85%E7%BD%AE%E6%A0%87%E7%AD%BE/"/>
+    <id>https://stongtong.github.io/2017/03/23/Next主题内置标签/</id>
     <published>2017-03-23T11:23:49.000Z</published>
-    <updated>2017-03-23T12:33:00.500Z</updated>
+    <updated>2017-03-24T07:20:04.921Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="My-Gallery-test"><a href="#My-Gallery-test" class="headerlink" title="My Gallery====test"></a>My Gallery====test</h1><p>该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。</p>
+    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a><blockquote class="blockquote-center"><p>My Gallery====test </p>
+</blockquote></h1><p>该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。</p>
 <h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><ol>
 <li>HTML方式<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;</div></pre></td></tr></table></figure>
 </li>
 </ol>
-<p><blockquote class="blockquote-center">该部分为文字居中</blockquote><br><a id="more"></a></p>
+<blockquote class="blockquote-center">该部分为文字居中</blockquote>
+
 <ol>
 <li>内置标签方式<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% centerquote %&#125;blah blah blah&#123;% endcenterquote %&#125;</div></pre></td></tr></table></figure>
 </li>
@@ -57,6 +59,7 @@
 <blockquote class="blockquote-center"><p>居中文字标签模式</p>
 </blockquote>
 <p>标签简写模式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;!-- 标签别名 --&gt;</div><div class="line">&#123;% cq %&#125; blah blah blah &#123;% endcq %&#125;</div></pre></td></tr></table></figure></p>
+<a id="more"></a>
 <h3 id="突破宽度限制图片"><a href="#突破宽度限制图片" class="headerlink" title="突破宽度限制图片"></a>突破宽度限制图片</h3><p>当使用此标签引用图片时，图片将自动扩大 26%，并突破文章容器的宽度。 此标签使用于需要突出显示的图片, 图片的扩大与容器的偏差从视觉上提升图片的吸引力。 此标签有两种调用方式（详细参看底下示例）：</p>
 <ol>
 <li>HTML方式：使用这种方式时，为 img 添加属性 class=”full-image”即可。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt;</div></pre></td></tr></table></figure>
@@ -89,16 +92,25 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;My-Gallery-test&quot;&gt;&lt;a href=&quot;#My-Gallery-test&quot; class=&quot;headerlink&quot; title=&quot;My Gallery====test&quot;&gt;&lt;/a&gt;My Gallery====test&lt;/h1&gt;&lt;p&gt;该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。&lt;/p&gt;
+      &lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;My Gallery====test &lt;/p&gt;
+&lt;/blockquote&gt;&lt;/h1&gt;&lt;p&gt;该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。&lt;/p&gt;
 &lt;h3 id=&quot;字体居中&quot;&gt;&lt;a href=&quot;#字体居中&quot; class=&quot;headerlink&quot; title=&quot;字体居中&quot;&gt;&lt;/a&gt;字体居中&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;HTML方式&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;blockquote class=&amp;quot;blockquote-center&amp;quot;&amp;gt;该部分为文字居中&amp;lt;/blockquote&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;&lt;br&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;内置标签方式&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;#123;% centerquote %&amp;#125;blah blah blah&amp;#123;% endcenterquote %&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;居中文字标签模式&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;标签简写模式&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;!-- 标签别名 --&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#123;% cq %&amp;#125; blah blah blah &amp;#123;% endcq %&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
     
     </summary>
     
-      <category term="photo" scheme="https://stongtong.github.io/categories/photo/"/>
+      <category term="note" scheme="https://stongtong.github.io/categories/note/"/>
     
     
   </entry>
@@ -127,6 +139,30 @@
     
     
       <category term="Hexo" scheme="https://stongtong.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://stongtong.github.io/2016/08/29/Hello%20World/"/>
+    <id>https://stongtong.github.io/2016/08/29/Hello World/</id>
+    <published>2016-08-29T08:52:43.000Z</published>
+    <updated>2017-03-23T08:00:49.665Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to XTong note.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to XTong note.&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="life" scheme="https://stongtong.github.io/categories/life/"/>
+    
+    
+      <category term="life" scheme="https://stongtong.github.io/tags/life/"/>
     
   </entry>
   
@@ -193,30 +229,6 @@
       <category term="github" scheme="https://stongtong.github.io/tags/github/"/>
     
       <category term="person" scheme="https://stongtong.github.io/tags/person/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://stongtong.github.io/2016/08/29/Hello%20World/"/>
-    <id>https://stongtong.github.io/2016/08/29/Hello World/</id>
-    <published>2016-08-29T08:52:43.000Z</published>
-    <updated>2017-03-23T08:00:49.665Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to XTong note.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to XTong note.&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="life" scheme="https://stongtong.github.io/categories/life/"/>
-    
-    
-      <category term="life" scheme="https://stongtong.github.io/tags/life/"/>
     
   </entry>
   
