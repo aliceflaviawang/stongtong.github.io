@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://stongtong.github.io/"/>
-  <updated>2017-03-24T15:22:29.605Z</updated>
+  <updated>2017-03-25T02:03:31.175Z</updated>
   <id>https://stongtong.github.io/</id>
   
   <author>
@@ -20,18 +20,15 @@
     <link href="https://stongtong.github.io/2017/03/23/Next%E4%B8%BB%E9%A2%98%E5%86%85%E7%BD%AE%E6%A0%87%E7%AD%BE/"/>
     <id>https://stongtong.github.io/2017/03/23/Next主题内置标签/</id>
     <published>2017-03-23T11:23:49.000Z</published>
-    <updated>2017-03-24T15:22:29.605Z</updated>
+    <updated>2017-03-25T02:03:31.175Z</updated>
     
-    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a><blockquote class="blockquote-center"><p>Next主题内置标签 </p>
-</blockquote></h1><p>该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。</p>
+    <content type="html"><![CDATA[<p>该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。</p>
 <h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><h4 id="HTML方式"><a href="#HTML方式" class="headerlink" title="HTML方式"></a>HTML方式</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;</div></pre></td></tr></table></figure>
-<blockquote class="blockquote-center">该部分为文字居中</blockquote>
-
+<p><blockquote class="blockquote-center">该部分为文字居中</blockquote><br><a id="more"></a></p>
 <h4 id="内置标签方式"><a href="#内置标签方式" class="headerlink" title="内置标签方式"></a>内置标签方式</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% centerquote %&#125;blah blah blah&#123;% endcenterquote %&#125;</div></pre></td></tr></table></figure>
 <blockquote class="blockquote-center"><p>居中文字标签模式</p>
 </blockquote>
 <p>标签简写模式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;!-- 标签别名 --&gt;</div><div class="line">&#123;% cq %&#125; blah blah blah &#123;% endcq %&#125;</div></pre></td></tr></table></figure></p>
-<a id="more"></a>
 <h3 id="突破宽度限制图片"><a href="#突破宽度限制图片" class="headerlink" title="突破宽度限制图片"></a>突破宽度限制图片</h3><p>当使用此标签引用图片时，图片将自动扩大 26%，并突破文章容器的宽度。 此标签使用于需要突出显示的图片, 图片的扩大与容器的偏差从视觉上提升图片的吸引力。 此标签有两种调用方式（详细参看底下示例）：</p>
 <h4 id="HTML方式：使用这种方式时，为-img-添加属性-class-”full-image”即可。"><a href="#HTML方式：使用这种方式时，为-img-添加属性-class-”full-image”即可。" class="headerlink" title="HTML方式：使用这种方式时，为 img 添加属性 class=”full-image”即可。"></a>HTML方式：使用这种方式时，为 img 添加属性 class=”full-image”即可。</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt;</div></pre></td></tr></table></figure>
 <p><img src="http://i.imgur.com/drFzc4r.jpg" class="full-image"><br><!-- more --></p>
@@ -58,15 +55,9 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;Next主题内置标签 &lt;/p&gt;
-&lt;/blockquote&gt;&lt;/h1&gt;&lt;p&gt;该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。&lt;/p&gt;
+      &lt;p&gt;该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。&lt;/p&gt;
 &lt;h3 id=&quot;字体居中&quot;&gt;&lt;a href=&quot;#字体居中&quot; class=&quot;headerlink&quot; title=&quot;字体居中&quot;&gt;&lt;/a&gt;字体居中&lt;/h3&gt;&lt;h4 id=&quot;HTML方式&quot;&gt;&lt;a href=&quot;#HTML方式&quot; class=&quot;headerlink&quot; title=&quot;HTML方式&quot;&gt;&lt;/a&gt;HTML方式&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;blockquote class=&amp;quot;blockquote-center&amp;quot;&amp;gt;该部分为文字居中&amp;lt;/blockquote&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;内置标签方式&quot;&gt;&lt;a href=&quot;#内置标签方式&quot; class=&quot;headerlink&quot; title=&quot;内置标签方式&quot;&gt;&lt;/a&gt;内置标签方式&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;#123;% centerquote %&amp;#125;blah blah blah&amp;#123;% endcenterquote %&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;居中文字标签模式&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;标签简写模式&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;!-- 标签别名 --&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#123;% cq %&amp;#125; blah blah blah &amp;#123;% endcq %&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;&lt;br&gt;
     
     </summary>
     
@@ -84,9 +75,9 @@
     <link href="https://stongtong.github.io/2016/08/30/Hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/"/>
     <id>https://stongtong.github.io/2016/08/30/Hexo常用命令记录/</id>
     <published>2016-08-30T08:52:43.000Z</published>
-    <updated>2017-03-23T12:32:41.889Z</updated>
+    <updated>2017-03-25T02:03:55.774Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Hexo常用命令记录"><a href="#Hexo常用命令记录" class="headerlink" title="Hexo常用命令记录"></a>Hexo常用命令记录</h1><h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">hexo n &quot;我的博客&quot; == hexo new &quot;我的博客&quot; //新建文章</div><div class="line">hexo new page &quot;我的类别&quot;  //新建目录下的page</div><div class="line">hexo p == hexo publish    //发布草稿到站点,其用法为hexo publish [layout] &lt;title&gt;</div><div class="line">hexo g == hexo generate  //生成</div><div class="line">hexo s == hexo server  //启动服务，当端口冲突时，其可以使用参数p更改端口，具体用法为hexo s -p 端口号</div><div class="line">hexo d == hexo deploy  //部署</div><div class="line">hexo c == hexo clean  //清楚生成文件</div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">hexo n &quot;我的博客&quot; == hexo new &quot;我的博客&quot; //新建文章</div><div class="line">hexo new page &quot;我的类别&quot;  //新建目录下的page</div><div class="line">hexo p == hexo publish    //发布草稿到站点,其用法为hexo publish [layout] &lt;title&gt;</div><div class="line">hexo g == hexo generate  //生成</div><div class="line">hexo s == hexo server  //启动服务，当端口冲突时，其可以使用参数p更改端口，具体用法为hexo s -p 端口号</div><div class="line">hexo d == hexo deploy  //部署</div><div class="line">hexo c == hexo clean  //清楚生成文件</div></pre></td></tr></table></figure>
 <a id="more"></a>
 <h3 id="hexo中使用模板"><a href="#hexo中使用模板" class="headerlink" title="hexo中使用模板"></a>hexo中使用模板</h3><p>在hexo根目录下的scaffolds文件下，有生成创建文章的模板，在生成时，可以进行模板指定：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new photo &quot;My Gallery&quot;  //photo为指定模板，创建时其会到scaffolds文件下查找photo.md文件，进行相册的创建。</div></pre></td></tr></table></figure></p>
 <h3 id="前置声明"><a href="#前置声明" class="headerlink" title="前置声明"></a>前置声明</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">layout: 布局，默认为post</div><div class="line">title: 文章名称</div><div class="line">date: 创建时间</div><div class="line">updated: 修改时间</div><div class="line">comments: 评论开关</div><div class="line">tags: 标签</div><div class="line">categories: 类别</div><div class="line">permalink: 永久链接</div></pre></td></tr></table></figure>
@@ -95,7 +86,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Hexo常用命令记录&quot;&gt;&lt;a href=&quot;#Hexo常用命令记录&quot; class=&quot;headerlink&quot; title=&quot;Hexo常用命令记录&quot;&gt;&lt;/a&gt;Hexo常用命令记录&lt;/h1&gt;&lt;h3 id=&quot;简写&quot;&gt;&lt;a href=&quot;#简写&quot; class=&quot;headerlink&quot; title=&quot;简写&quot;&gt;&lt;/a&gt;简写&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo n &amp;quot;我的博客&amp;quot; == hexo new &amp;quot;我的博客&amp;quot; //新建文章&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo new page &amp;quot;我的类别&amp;quot;  //新建目录下的page&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo p == hexo publish    //发布草稿到站点,其用法为hexo publish [layout] &amp;lt;title&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo g == hexo generate  //生成&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo s == hexo server  //启动服务，当端口冲突时，其可以使用参数p更改端口，具体用法为hexo s -p 端口号&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo d == hexo deploy  //部署&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo c == hexo clean  //清楚生成文件&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      &lt;h3 id=&quot;简写&quot;&gt;&lt;a href=&quot;#简写&quot; class=&quot;headerlink&quot; title=&quot;简写&quot;&gt;&lt;/a&gt;简写&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo n &amp;quot;我的博客&amp;quot; == hexo new &amp;quot;我的博客&amp;quot; //新建文章&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo new page &amp;quot;我的类别&amp;quot;  //新建目录下的page&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo p == hexo publish    //发布草稿到站点,其用法为hexo publish [layout] &amp;lt;title&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo g == hexo generate  //生成&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo s == hexo server  //启动服务，当端口冲突时，其可以使用参数p更改端口，具体用法为hexo s -p 端口号&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo d == hexo deploy  //部署&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo c == hexo clean  //清楚生成文件&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -135,10 +126,9 @@
     <link href="https://stongtong.github.io/2016/08/29/GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
     <id>https://stongtong.github.io/2016/08/29/GitHub搭建个人网站记录/</id>
     <published>2016-08-29T08:52:43.000Z</published>
-    <updated>2017-03-23T12:32:25.395Z</updated>
+    <updated>2017-03-25T02:04:16.085Z</updated>
     
-    <content type="html"><![CDATA[<p><link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet"></p>
-<h1 id="github搭建各站记录"><a href="#github搭建各站记录" class="headerlink" title="github搭建各站记录"></a>github搭建各站记录</h1><p>本次搭建主要使用hexo blog自动发布完成</p>
+    <content type="html"><![CDATA[<p>本次搭建主要使用hexo blog自动发布完成</p>
 <h3 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h3><p>1、下载node js和git，安装完成后，在node js中利用npm进行hexo的安装：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure>
 <p>2、在指定目录下初始化hexo目录， </p>
@@ -178,8 +168,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;link href=&quot;http://kevinburke.bitbucket.org/markdowncss/markdown.css&quot; rel=&quot;stylesheet&quot;&gt;&lt;/link&gt;&lt;/p&gt;
-&lt;h1 id=&quot;github搭建各站记录&quot;&gt;&lt;a href=&quot;#github搭建各站记录&quot; class=&quot;headerlink&quot; title=&quot;github搭建各站记录&quot;&gt;&lt;/a&gt;github搭建各站记录&lt;/h1&gt;&lt;p&gt;本次搭建主要使用hexo blog自动发布完成&lt;/p&gt;
+      &lt;p&gt;本次搭建主要使用hexo blog自动发布完成&lt;/p&gt;
 &lt;h3 id=&quot;主要步骤&quot;&gt;&lt;a href=&quot;#主要步骤&quot; class=&quot;headerlink&quot; title=&quot;主要步骤&quot;&gt;&lt;/a&gt;主要步骤&lt;/h3&gt;&lt;p&gt;1、下载node js和git，安装完成后，在node js中利用npm进行hexo的安装：&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm install -g hexo-cli&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;2、在指定目录下初始化hexo目录， &lt;/p&gt;
@@ -201,10 +190,11 @@
     <link href="https://stongtong.github.io/2016/05/05/%E9%87%8D-%E5%BA%86/"/>
     <id>https://stongtong.github.io/2016/05/05/重-庆/</id>
     <published>2016-05-05T12:45:12.000Z</published>
-    <updated>2017-03-24T15:23:35.284Z</updated>
+    <updated>2017-03-25T02:46:40.995Z</updated>
     
     <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a><blockquote class="blockquote-center"><p>重 庆<font size="1px">……..赵熙</font><br>自古西南镇，沧江日夜东。<br>水围巴子国，山压禹王宫。<br>鼓角人声外，华夷市气中。<br>石城非广武，何处问庞雄。 </p>
-</blockquote></h1><p>满怀期待，计划一个月的重庆之旅就这样开启了……<br><div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i.imgur.com/ZDelyKr.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/ZPdHg8M.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/oENJOou.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/mkqumaO.jpg" alt=""></div></div></div></div><br><a id="more"></a></p>
+</blockquote></h1><p>满怀期待，计划一个月的重庆之旅就这样开启了……<br><div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i.imgur.com/ZDelyKr.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/ZPdHg8M.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/oENJOou.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i.imgur.com/mkqumaO.jpg" alt=""></div></div></div></div><br><a id="more"></a><br>租辆校车，乘着五一小长假，一群人就这么踏上了重庆之旅。<br>刚到磁器口，人来人往，好不热闹，<br><img src="http://onclsyizm.bkt.clouddn.com/1.jpg-github" alt=""><br>小饰品店，看着还挺漂亮的（一群大老爷们，呵呵）<br><img src="http://onclsyizm.bkt.clouddn.com/2.jpg-github" alt=""><br>来根冰棍消消暑，只想说五一的重庆已经热到不行<br><img src="http://onclsyizm.bkt.clouddn.com/3.jpg-github" alt=""><br>神龙峡一日游，<br><img src="http://onclsyizm.bkt.clouddn.com/4.jpg-github" alt=""><br>只想说，五一的神龙峡水——冰冷，玩过漂流的几个男人冷到不行，不过还是很开心，也就是洗个热水澡和换个衣服的事情（幸亏衣服带的多，要不然，裸奔？）<br><img src="http://onclsyizm.bkt.clouddn.com/5.jpg-github" alt=""><br>午夜一点的解放碑，还是人山人海，小卡片满天飞，，，，，，<br><img src="http://onclsyizm.bkt.clouddn.com/6.jpg-github" alt=""><br>凌晨两点的朝天门，貌似当时下雨了<br><img src="http://onclsyizm.bkt.clouddn.com/7.jpg-github" alt=""><br>回来的高速上，已经被川A大军全部覆盖<br><img src="http://onclsyizm.bkt.clouddn.com/8.jpg-github" alt=""></p>
+<p>重庆的3日游，还是很happy，想到哪去哪，饿了吃，困了睡，也感谢大哥的导游，唯一美中不足的就是重庆好像并不太适合自驾去，城区山路太难开，是不是文奇？期待下一次的出发……<br><div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div></p>
 ]]></content>
     
     <summary type="html">
