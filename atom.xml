@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://stongtong.github.io/"/>
-  <updated>2017-03-25T02:03:31.175Z</updated>
+  <updated>2017-03-25T02:51:49.594Z</updated>
   <id>https://stongtong.github.io/</id>
   
   <author>
@@ -16,11 +16,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>aaa</title>
+    <link href="https://stongtong.github.io/2017/03/25/aaa/"/>
+    <id>https://stongtong.github.io/2017/03/25/aaa/</id>
+    <published>2017-03-25T02:51:49.000Z</published>
+    <updated>2017-03-25T02:51:49.594Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note primary&quot;&gt;&lt;h4 id=&quot;本文作者：tongtong&quot;&gt;&lt;a href=&quot;#本文作者：tongtong&quot; class=&quot;headerlink&quot; title=&quot;本文作者：tongtong&quot;&gt;&lt;/a&gt;本文作者：tongtong&lt;/h4&gt;&lt;h4
+    
+    </summary>
+    
+      <category term="photo" scheme="https://stongtong.github.io/categories/photo/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Next主题内置标签</title>
     <link href="https://stongtong.github.io/2017/03/23/Next%E4%B8%BB%E9%A2%98%E5%86%85%E7%BD%AE%E6%A0%87%E7%AD%BE/"/>
     <id>https://stongtong.github.io/2017/03/23/Next主题内置标签/</id>
     <published>2017-03-23T11:23:49.000Z</published>
-    <updated>2017-03-25T02:03:31.175Z</updated>
+    <updated>2017-03-25T02:49:52.635Z</updated>
     
     <content type="html"><![CDATA[<p>该文章测试next主题中的图片表示，因为看到官网上有很多的内置标签，测试一下，方便以后使用。</p>
 <h3 id="字体居中"><a href="#字体居中" class="headerlink" title="字体居中"></a>字体居中</h3><h4 id="HTML方式"><a href="#HTML方式" class="headerlink" title="HTML方式"></a>HTML方式</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;该部分为文字居中&lt;/blockquote&gt;</div></pre></td></tr></table></figure>
@@ -51,6 +71,7 @@
 </div>
 <div class="note danger"><p>此类别为danger</p>
 </div>
+<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>
 ]]></content>
     
     <summary type="html">
@@ -75,13 +96,13 @@
     <link href="https://stongtong.github.io/2016/08/30/Hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/"/>
     <id>https://stongtong.github.io/2016/08/30/Hexo常用命令记录/</id>
     <published>2016-08-30T08:52:43.000Z</published>
-    <updated>2017-03-25T02:03:55.774Z</updated>
+    <updated>2017-03-25T02:50:26.834Z</updated>
     
     <content type="html"><![CDATA[<h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">hexo n &quot;我的博客&quot; == hexo new &quot;我的博客&quot; //新建文章</div><div class="line">hexo new page &quot;我的类别&quot;  //新建目录下的page</div><div class="line">hexo p == hexo publish    //发布草稿到站点,其用法为hexo publish [layout] &lt;title&gt;</div><div class="line">hexo g == hexo generate  //生成</div><div class="line">hexo s == hexo server  //启动服务，当端口冲突时，其可以使用参数p更改端口，具体用法为hexo s -p 端口号</div><div class="line">hexo d == hexo deploy  //部署</div><div class="line">hexo c == hexo clean  //清楚生成文件</div></pre></td></tr></table></figure>
 <a id="more"></a>
 <h3 id="hexo中使用模板"><a href="#hexo中使用模板" class="headerlink" title="hexo中使用模板"></a>hexo中使用模板</h3><p>在hexo根目录下的scaffolds文件下，有生成创建文章的模板，在生成时，可以进行模板指定：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new photo &quot;My Gallery&quot;  //photo为指定模板，创建时其会到scaffolds文件下查找photo.md文件，进行相册的创建。</div></pre></td></tr></table></figure></p>
 <h3 id="前置声明"><a href="#前置声明" class="headerlink" title="前置声明"></a>前置声明</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">layout: 布局，默认为post</div><div class="line">title: 文章名称</div><div class="line">date: 创建时间</div><div class="line">updated: 修改时间</div><div class="line">comments: 评论开关</div><div class="line">tags: 标签</div><div class="line">categories: 类别</div><div class="line">permalink: 永久链接</div></pre></td></tr></table></figure>
-<h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>基本就是这么多了，以后用到在继续添加。</p>
+<h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>基本就是这么多了，以后用到在继续添加。<br><div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div></p>
 ]]></content>
     
     <summary type="html">
@@ -98,35 +119,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://stongtong.github.io/2016/08/29/Hello%20World/"/>
-    <id>https://stongtong.github.io/2016/08/29/Hello World/</id>
-    <published>2016-08-29T08:52:43.000Z</published>
-    <updated>2017-03-23T08:00:49.665Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to XTong note.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to XTong note.&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="life" scheme="https://stongtong.github.io/categories/life/"/>
-    
-    
-      <category term="life" scheme="https://stongtong.github.io/tags/life/"/>
-    
-  </entry>
-  
-  <entry>
     <title>github搭建各站记录</title>
     <link href="https://stongtong.github.io/2016/08/29/GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
     <id>https://stongtong.github.io/2016/08/29/GitHub搭建个人网站记录/</id>
     <published>2016-08-29T08:52:43.000Z</published>
-    <updated>2017-03-25T02:04:16.085Z</updated>
+    <updated>2017-03-25T02:50:37.173Z</updated>
     
     <content type="html"><![CDATA[<p>本次搭建主要使用hexo blog自动发布完成</p>
 <h3 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤"></a>主要步骤</h3><p>1、下载node js和git，安装完成后，在node js中利用npm进行hexo的安装：</p>
@@ -164,6 +161,7 @@
 <p>然后新建一个应用，应用的名称可以随便选取，在该应用中新建一个class，class权限设置为最大，class名称为Counter，然后进入设置，可以获取ID和Key，如下图：<br><img src="http://i.imgur.com/VfmJsnt.png" alt=""></p>
 <p>获取之后，在主题配置文件中进行设定：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">leancloud_visitors:</div><div class="line">  enable: true</div><div class="line">  app_id: C5p2It82joj83Mzm0milY5BK-gzGzoHsz</div><div class="line">  app_key: iDq8etLnrVzoVdfbWoOOow4L</div></pre></td></tr></table></figure></p>
 <p>重启blog即可。</p>
+<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>
 ]]></content>
     
     <summary type="html">
@@ -182,6 +180,31 @@
       <category term="github" scheme="https://stongtong.github.io/tags/github/"/>
     
       <category term="person" scheme="https://stongtong.github.io/tags/person/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://stongtong.github.io/2016/08/29/Hello%20World/"/>
+    <id>https://stongtong.github.io/2016/08/29/Hello World/</id>
+    <published>2016-08-29T08:52:43.000Z</published>
+    <updated>2017-03-25T02:50:45.030Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to XTong note.</p>
+<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to XTong note.&lt;/p&gt;
+&lt;div class=&quot;note primary&quot;&gt;&lt;h4 id=&quot;本文作者：tongtong&quot;&gt;&lt;a href=&quot;#本文作者：tongtong&quot; class=&quot;headerlink&quot; title=&quot;本文作者：tongt
+    
+    </summary>
+    
+      <category term="life" scheme="https://stongtong.github.io/categories/life/"/>
+    
+    
+      <category term="life" scheme="https://stongtong.github.io/tags/life/"/>
     
   </entry>
   
