@@ -89,27 +89,15 @@
 
 
 
-<meta name="description" content="学习之前要先娱乐一下，欣赏大师的作品：
-学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。
-self说明 self代表类的实例，而非类 
-实例11234567class SelfTest:	def prt(self):		print(self)		print(self.__clas">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python——接口中self">
 <meta property="og:url" content="https://stongtong.github.io/2017/03/28/Python——接口中self/index.html">
 <meta property="og:site_name" content="XTong notes">
-<meta property="og:description" content="学习之前要先娱乐一下，欣赏大师的作品：
-学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。
-self说明 self代表类的实例，而非类 
-实例11234567class SelfTest:	def prt(self):		print(self)		print(self.__clas">
-<meta property="og:image" content="https://stongtong.github.io/![](http://onco8ybky.bkt.clouddn.com/boy.jpg)">
-<meta property="og:updated_time" content="2017-03-30T12:44:04.680Z">
+<meta property="og:image" content="http://onco8ybky.bkt.clouddn.com/boy.jpg">
+<meta property="og:updated_time" content="2017-03-30T13:05:44.672Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python——接口中self">
-<meta name="twitter:description" content="学习之前要先娱乐一下，欣赏大师的作品：
-学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。
-self说明 self代表类的实例，而非类 
-实例11234567class SelfTest:	def prt(self):		print(self)		print(self.__clas">
-<meta name="twitter:image" content="https://stongtong.github.io/![](http://onco8ybky.bkt.clouddn.com/boy.jpg)">
+<meta name="twitter:image" content="http://onco8ybky.bkt.clouddn.com/boy.jpg">
 
 
 
@@ -421,12 +409,11 @@ self说明 self代表类的实例，而非类
       
 
       
-        <p>学习之前要先娱乐一下，欣赏大师的作品：<br><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="![](http://onco8ybky.bkt.clouddn.com/boy.jpg)" class="full-image" alt="alt" title="布列农--《男孩》"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span></p>
-<p>学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。</p>
+        <p><img src="http://onco8ybky.bkt.clouddn.com/boy.jpg" alt="布列农--《男孩》"><br><a id="more"></a><br>学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。</p>
 <h3 id="self说明"><a href="#self说明" class="headerlink" title="self说明"></a>self说明</h3><p><strong> self代表类的实例，而非类 </strong></p>
 <h3 id="实例1"><a href="#实例1" class="headerlink" title="实例1"></a>实例1</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">class SelfTest:</div><div class="line">	def prt(self):</div><div class="line">		print(self)</div><div class="line">		print(self.__class__)</div><div class="line">		</div><div class="line">t = SelfTest()</div><div class="line">t.prt()</div></pre></td></tr></table></figure>
 <p>计算结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;__main__.SelfTest object at 0x00000093147BD518&gt;</div><div class="line">&lt;class &apos;__main__.SelfTest&apos;&gt;</div></pre></td></tr></table></figure></p>
-<p>打印SelfTest信息，打印出该对象的地址，而其类名为SelfTest，说明self为SelfTest的实例。<br><a id="more"></a></p>
+<p>打印SelfTest信息，打印出该对象的地址，而其类名为SelfTest，说明self为SelfTest的实例。</p>
 <h3 id="实例2"><a href="#实例2" class="headerlink" title="实例2"></a>实例2</h3><p>对于学过Java的人来说，this是比较熟悉的，this为特定关键字，那么self可以改变吗？本实例说明。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">class SelfTest:</div><div class="line">	def prt(self):</div><div class="line">		print(self)</div><div class="line">		print(self.__class__)</div><div class="line">		</div><div class="line">class ThisTest:</div><div class="line">	def prt(this):</div><div class="line">		print(this)</div><div class="line">		print(this.__class__)</div><div class="line">		</div><div class="line">t = SelfTest()</div><div class="line">t.prt()</div><div class="line">t = ThisTest()</div><div class="line">t.prt()</div></pre></td></tr></table></figure></p>
 <p>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;__main__.SelfTest object at 0x0000002D5315DB00&gt;</div><div class="line">&lt;class &apos;__main__.SelfTest&apos;&gt;</div><div class="line">&lt;__main__.ThisTest object at 0x0000002D5315DBA8&gt;</div><div class="line">&lt;class &apos;__main__.ThisTest&apos;&gt;</div></pre></td></tr></table></figure></p>
 <p>在Python内部解释器中，Python会将self替换成实例来运行，解释为TestSelf.prt(self),示例如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">class SelfTest:</div><div class="line">	def prt(self):</div><div class="line">		print(self)</div><div class="line">		print(self.__class__)</div><div class="line">		</div><div class="line">class ThisTest:</div><div class="line">	def prt(this):</div><div class="line">		print(this)</div><div class="line">		print(this.__class__)</div><div class="line">		</div><div class="line">t = SelfTest()</div><div class="line">t.prt()</div><div class="line">SelfTest.prt(t)</div><div class="line">ThisTest.prt(t)</div></pre></td></tr></table></figure></p>
@@ -452,7 +439,7 @@ self说明 self代表类的实例，而非类
 <h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
 <li>self在定义时需要定义，但是在调用时会自动传入。</li>
 <li>self的名字并不是规定死的，但是最好还是按照约定是用self</li>
-<li>self总是指调用时的类的实例。<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>
+<li>self总是指调用时的类的实例。<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2017-03-28-Python——接口中self"><a href="#本文链接：https-stongtong-github-io-2017-03-28-Python——接口中self" class="headerlink" title="本文链接：https://stongtong.github.io/2017/03/28/Python——接口中self/"></a>本文链接：<a href="https://stongtong.github.io/2017/03/28/Python——接口中self/">https://stongtong.github.io/2017/03/28/Python——接口中self/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>
 </li>
 </ul>
 
@@ -689,7 +676,7 @@ self说明 self代表类的实例，而非类
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#self说明"><span class="nav-number">1.</span> <span class="nav-text">self说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例1"><span class="nav-number">2.</span> <span class="nav-text">实例1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例2"><span class="nav-number">3.</span> <span class="nav-text">实例2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例三"><span class="nav-number">4.</span> <span class="nav-text">实例三</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例四"><span class="nav-number">5.</span> <span class="nav-text">实例四</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例五"><span class="nav-number">6.</span> <span class="nav-text">实例五</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例六"><span class="nav-number">7.</span> <span class="nav-text">实例六</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#总结"><span class="nav-number">8.</span> <span class="nav-text">总结</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#本文作者：tongtong"><span class="nav-number">8.1.</span> <span class="nav-text">本文作者：tongtong</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆"><span class="nav-number">8.2.</span> <span class="nav-text">本文链接：https://stongtong.github.io/2016/05/05/重-庆/</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#版权申明：网站内容为tongtong所有，转载请注明出处。"><span class="nav-number">8.3.</span> <span class="nav-text">版权申明：网站内容为tongtong所有，转载请注明出处。</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#self说明"><span class="nav-number">1.</span> <span class="nav-text">self说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例1"><span class="nav-number">2.</span> <span class="nav-text">实例1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例2"><span class="nav-number">3.</span> <span class="nav-text">实例2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例三"><span class="nav-number">4.</span> <span class="nav-text">实例三</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例四"><span class="nav-number">5.</span> <span class="nav-text">实例四</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例五"><span class="nav-number">6.</span> <span class="nav-text">实例五</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例六"><span class="nav-number">7.</span> <span class="nav-text">实例六</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#总结"><span class="nav-number">8.</span> <span class="nav-text">总结</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#本文作者：tongtong"><span class="nav-number">8.1.</span> <span class="nav-text">本文作者：tongtong</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#本文链接：https-stongtong-github-io-2017-03-28-Python——接口中self"><span class="nav-number">8.2.</span> <span class="nav-text">本文链接：https://stongtong.github.io/2017/03/28/Python——接口中self/</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#版权申明：网站内容为tongtong所有，转载请注明出处。"><span class="nav-number">8.3.</span> <span class="nav-text">版权申明：网站内容为tongtong所有，转载请注明出处。</span></a></li></ol></li></ol></div>
             
 
           </div>
