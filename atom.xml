@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://stongtong.github.io/"/>
-  <updated>2017-03-25T02:51:49.594Z</updated>
+  <updated>2017-03-30T02:29:21.326Z</updated>
   <id>https://stongtong.github.io/</id>
   
   <author>
@@ -16,13 +16,14 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>aaa</title>
-    <link href="https://stongtong.github.io/2017/03/25/aaa/"/>
-    <id>https://stongtong.github.io/2017/03/25/aaa/</id>
-    <published>2017-03-25T02:51:49.000Z</published>
-    <updated>2017-03-25T02:51:49.594Z</updated>
+    <title>Python——3.6.1改动</title>
+    <link href="https://stongtong.github.io/2017/03/30/Python%E2%80%94%E2%80%943-6-1%E6%94%B9%E5%8A%A8/"/>
+    <id>https://stongtong.github.io/2017/03/30/Python——3-6-1改动/</id>
+    <published>2017-03-30T02:29:21.000Z</published>
+    <updated>2017-03-30T02:29:21.326Z</updated>
     
-    <content type="html"><![CDATA[<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>]]></content>
+    <content type="html"><![CDATA[<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>
+]]></content>
     
     <summary type="html">
     
@@ -30,8 +31,73 @@
     
     </summary>
     
-      <category term="photo" scheme="https://stongtong.github.io/categories/photo/"/>
+      <category term="Thu Mar 30 2017 10:29:21 GMT+0800 (中国标准时间)" scheme="https://stongtong.github.io/categories/Thu-Mar-30-2017-10-29-21-GMT-0800-%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>Python——接口中self</title>
+    <link href="https://stongtong.github.io/2017/03/28/Python%E2%80%94%E2%80%94%E6%8E%A5%E5%8F%A3%E4%B8%ADself/"/>
+    <id>https://stongtong.github.io/2017/03/28/Python——接口中self/</id>
+    <published>2017-03-28T13:34:34.000Z</published>
+    <updated>2017-03-30T12:44:04.680Z</updated>
+    
+    <content type="html"><![CDATA[<p>学习之前要先娱乐一下，欣赏大师的作品：<br><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="![](http://onco8ybky.bkt.clouddn.com/boy.jpg)" class="full-image" alt="alt" title="布列农--《男孩》"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span></p>
+<p>学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。</p>
+<h3 id="self说明"><a href="#self说明" class="headerlink" title="self说明"></a>self说明</h3><p><strong> self代表类的实例，而非类 </strong></p>
+<h3 id="实例1"><a href="#实例1" class="headerlink" title="实例1"></a>实例1</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">class SelfTest:</div><div class="line">	def prt(self):</div><div class="line">		print(self)</div><div class="line">		print(self.__class__)</div><div class="line">		</div><div class="line">t = SelfTest()</div><div class="line">t.prt()</div></pre></td></tr></table></figure>
+<p>计算结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;__main__.SelfTest object at 0x00000093147BD518&gt;</div><div class="line">&lt;class &apos;__main__.SelfTest&apos;&gt;</div></pre></td></tr></table></figure></p>
+<p>打印SelfTest信息，打印出该对象的地址，而其类名为SelfTest，说明self为SelfTest的实例。<br><a id="more"></a></p>
+<h3 id="实例2"><a href="#实例2" class="headerlink" title="实例2"></a>实例2</h3><p>对于学过Java的人来说，this是比较熟悉的，this为特定关键字，那么self可以改变吗？本实例说明。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">class SelfTest:</div><div class="line">	def prt(self):</div><div class="line">		print(self)</div><div class="line">		print(self.__class__)</div><div class="line">		</div><div class="line">class ThisTest:</div><div class="line">	def prt(this):</div><div class="line">		print(this)</div><div class="line">		print(this.__class__)</div><div class="line">		</div><div class="line">t = SelfTest()</div><div class="line">t.prt()</div><div class="line">t = ThisTest()</div><div class="line">t.prt()</div></pre></td></tr></table></figure></p>
+<p>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;__main__.SelfTest object at 0x0000002D5315DB00&gt;</div><div class="line">&lt;class &apos;__main__.SelfTest&apos;&gt;</div><div class="line">&lt;__main__.ThisTest object at 0x0000002D5315DBA8&gt;</div><div class="line">&lt;class &apos;__main__.ThisTest&apos;&gt;</div></pre></td></tr></table></figure></p>
+<p>在Python内部解释器中，Python会将self替换成实例来运行，解释为TestSelf.prt(self),示例如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">class SelfTest:</div><div class="line">	def prt(self):</div><div class="line">		print(self)</div><div class="line">		print(self.__class__)</div><div class="line">		</div><div class="line">class ThisTest:</div><div class="line">	def prt(this):</div><div class="line">		print(this)</div><div class="line">		print(this.__class__)</div><div class="line">		</div><div class="line">t = SelfTest()</div><div class="line">t.prt()</div><div class="line">SelfTest.prt(t)</div><div class="line">ThisTest.prt(t)</div></pre></td></tr></table></figure></p>
+<p>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&lt;__main__.SelfTest object at 0x0000024C9F09DB38&gt;</div><div class="line">&lt;class &apos;__main__.SelfTest&apos;&gt;</div><div class="line">&lt;__main__.SelfTest object at 0x0000024C9F09DB38&gt;</div><div class="line">&lt;class &apos;__main__.SelfTest&apos;&gt;</div><div class="line">&lt;__main__.SelfTest object at 0x0000024C9F09DB38&gt;</div><div class="line">&lt;class &apos;__main__.SelfTest&apos;&gt;</div></pre></td></tr></table></figure></p>
+<p>运行结果即如解释所述。</p>
+<h3 id="实例三"><a href="#实例三" class="headerlink" title="实例三"></a>实例三</h3><p>如果函数没有在定义时知名self实例变量，则在函数内部是不能再进行self调用的，实例如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">class Test:</div><div class="line">	def test():</div><div class="line">		print(self)</div><div class="line">		</div><div class="line">t = Test()</div><div class="line">t.test()</div></pre></td></tr></table></figure></p>
+<p>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Traceback (most recent call last):</div><div class="line">  File &quot;selfDefinition.py&quot;, line 17, in &lt;module&gt;</div><div class="line">    t.test()</div><div class="line">TypeError: test() takes 0 positional arguments but 1 was given</div></pre></td></tr></table></figure></p>
+<p>test中没有指定self实例，当在test的中再进行self调用时，即为非法调用，强行传入一个位置参数。</p>
+<h3 id="实例四"><a href="#实例四" class="headerlink" title="实例四"></a>实例四</h3><p>如果在定义和调用时，都不进行实例self的指定，则该函数为类函数，示例如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">class Test:</div><div class="line">	def test():</div><div class="line">		print(__class__)</div><div class="line">		</div><div class="line">t = Test()</div><div class="line">t.test()</div></pre></td></tr></table></figure></p>
+<p>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Traceback (most recent call last):</div><div class="line">  File &quot;selfDefinition.py&quot;, line 18, in &lt;module&gt;</div><div class="line">    t.test()</div><div class="line">TypeError: test() takes 0 positional arguments but 1 was given</div></pre></td></tr></table></figure></p>
+<p>该运行结果是因为该函数为类函数，不能通过实例的形式进行调用。<br>如果将运行代码换为<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Test.test()</div></pre></td></tr></table></figure></p>
+<p>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;class &apos;__main__.Test&apos;&gt;</div></pre></td></tr></table></figure></p>
+<p>运行正确，类函数的正确调用方式。</p>
+<p>不能在函数定义的时候省略，这样函数会认为该函数并没有参数，</p>
+<h3 id="实例五"><a href="#实例五" class="headerlink" title="实例五"></a>实例五</h3><p>正如实例二中所写的，代码中SelfTest和ThisTest都为相应类，但是当传入实例t时，两个函数运行结果都为SelfTest，说明只要参数指定实例，运行中的实例就是该实例，而不是确定的函数所在类的实例。<br>在继承时，传入指定实例，就是那个传入的实例，而不是指定义self的类的实例，具体实例如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">class Parent:</div><div class="line">    def pprt(self):</div><div class="line">        print(self)</div><div class="line"> </div><div class="line">class Child(Parent):</div><div class="line">    def cprt(self):</div><div class="line">        print(self)</div><div class="line">c = Child()</div><div class="line">c.cprt()</div><div class="line">c.pprt()</div><div class="line">p = Parent()</div><div class="line">p.pprt()</div></pre></td></tr></table></figure></p>
+<p>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;__main__.Child object at 0x0000022C2D126080&gt;</div><div class="line">&lt;__main__.Child object at 0x0000022C2D126080&gt;</div><div class="line">&lt;__main__.Parent object at 0x0000022C2D1260F0&gt;</div></pre></td></tr></table></figure></p>
+<p>c的实例为child，不论调用cprt还是pprt，其self都为child。<strong>pprt为其调用的父类中的方法，传入子类实例</strong>。</p>
+<h3 id="实例六"><a href="#实例六" class="headerlink" title="实例六"></a>实例六</h3><p>在描述符类中，self指的是描述符类的实例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">class Desc:</div><div class="line">    def __get__(self, ins, cls):</div><div class="line">        print(&apos;self in Desc: %s &apos; % self )</div><div class="line">        print(self, ins, cls)</div><div class="line">class Test:</div><div class="line">    x = Desc()</div><div class="line">    def prt(self):</div><div class="line">        print(&apos;self in Test: %s&apos; % self)</div><div class="line">t = Test()</div><div class="line">t.prt()</div><div class="line">t.x</div></pre></td></tr></table></figure></p>
+<p>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">self in Test: &lt;__main__.Test object at 0x00000240B95472B0&gt;</div><div class="line">self in Desc: &lt;__main__.Desc object at 0x00000240B9547240&gt; </div><div class="line">&lt;__main__.Desc object at 0x00000240B9547240&gt; &lt;__main__.Test object at 0x00000240B95472B0&gt; &lt;class &apos;__main__.Test&apos;&gt;</div></pre></td></tr></table></figure></p>
+<p>t.prt输出的是t的实例，但是t.x输出的是Desc的实例，这是由于调用t.x，即是Test类的实例t的属性x，由于实例t中并没有定义属性x，所以找到类属性x，而该属性是描述符属性，为Desc类的实例而已，所以此处并没有顶用Test任何方法，直接通过类进行调用也能得到相同的结果。<br>将其上代码换为如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">t = Test()</div><div class="line">Test.prt(t)</div><div class="line">Test.x</div></pre></td></tr></table></figure></p>
+<p>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">self in Test: &lt;__main__.Test object at 0x00000143AA1972E8&gt;</div><div class="line">self in Desc: &lt;__main__.Desc object at 0x00000143AA197278&gt; </div><div class="line">&lt;__main__.Desc object at 0x00000143AA197278&gt; None &lt;class &apos;__main__.Test&apos;&gt;</div></pre></td></tr></table></figure></p>
+<p>与上述结果一致。<br>题外话：由于在很多时候描述符类中仍然需要知道调用该描述符的实例是谁，所以在描述符类中存在第二个参数ins，用来表示调用它的类实例，所以t.x时可以看到第三行中的运行结果中第二项为<__main__.test object="" at="" 0x00000240b95472b0="">。而采用Test.x进行调用时，由于没有实例，所以返回None。</__main__.test></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
+<li>self在定义时需要定义，但是在调用时会自动传入。</li>
+<li>self的名字并不是规定死的，但是最好还是按照约定是用self</li>
+<li>self总是指调用时的类的实例。<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习之前要先娱乐一下，欣赏大师的作品：&lt;br&gt;&lt;span itemprop=&quot;image&quot; itemscope itemtype=&quot;http://schema.org/ImageObject&quot;&gt;&lt;img itemprop=&quot;url image&quot; src=&quot;![](http://onco8ybky.bkt.clouddn.com/boy.jpg)&quot; class=&quot;full-image&quot; alt=&quot;alt&quot; title=&quot;布列农--《男孩》&quot; /&gt;&lt;meta itemprop=&quot;width&quot; content=&quot;auto&quot;&gt;&lt;meta itemprop=&quot;height&quot; content=&quot;auto&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。&lt;/p&gt;
+&lt;h3 id=&quot;self说明&quot;&gt;&lt;a href=&quot;#self说明&quot; class=&quot;headerlink&quot; title=&quot;self说明&quot;&gt;&lt;/a&gt;self说明&lt;/h3&gt;&lt;p&gt;&lt;strong&gt; self代表类的实例，而非类 &lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;实例1&quot;&gt;&lt;a href=&quot;#实例1&quot; class=&quot;headerlink&quot; title=&quot;实例1&quot;&gt;&lt;/a&gt;实例1&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;class SelfTest:&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	def prt(self):&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		print(self)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		print(self.__class__)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;t = SelfTest()&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;t.prt()&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;计算结果：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;__main__.SelfTest object at 0x00000093147BD518&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;class &amp;apos;__main__.SelfTest&amp;apos;&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;打印SelfTest信息，打印出该对象的地址，而其类名为SelfTest，说明self为SelfTest的实例。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://stongtong.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://stongtong.github.io/tags/python/"/>
+    
+      <category term="接口" scheme="https://stongtong.github.io/tags/%E6%8E%A5%E5%8F%A3/"/>
+    
+      <category term="self" scheme="https://stongtong.github.io/tags/self/"/>
     
   </entry>
   
@@ -119,6 +185,31 @@
   </entry>
   
   <entry>
+    <title>Hello World</title>
+    <link href="https://stongtong.github.io/2016/08/29/Hello%20World/"/>
+    <id>https://stongtong.github.io/2016/08/29/Hello World/</id>
+    <published>2016-08-29T08:52:43.000Z</published>
+    <updated>2017-03-25T02:50:45.030Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to XTong note.</p>
+<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to XTong note.&lt;/p&gt;
+&lt;div class=&quot;note primary&quot;&gt;&lt;h4 id=&quot;本文作者：tongtong&quot;&gt;&lt;a href=&quot;#本文作者：tongtong&quot; class=&quot;headerlink&quot; title=&quot;本文作者：tongt
+    
+    </summary>
+    
+      <category term="life" scheme="https://stongtong.github.io/categories/life/"/>
+    
+    
+      <category term="life" scheme="https://stongtong.github.io/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
     <title>github搭建各站记录</title>
     <link href="https://stongtong.github.io/2016/08/29/GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
     <id>https://stongtong.github.io/2016/08/29/GitHub搭建个人网站记录/</id>
@@ -180,31 +271,6 @@
       <category term="github" scheme="https://stongtong.github.io/tags/github/"/>
     
       <category term="person" scheme="https://stongtong.github.io/tags/person/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://stongtong.github.io/2016/08/29/Hello%20World/"/>
-    <id>https://stongtong.github.io/2016/08/29/Hello World/</id>
-    <published>2016-08-29T08:52:43.000Z</published>
-    <updated>2017-03-25T02:50:45.030Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to XTong note.</p>
-<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to XTong note.&lt;/p&gt;
-&lt;div class=&quot;note primary&quot;&gt;&lt;h4 id=&quot;本文作者：tongtong&quot;&gt;&lt;a href=&quot;#本文作者：tongtong&quot; class=&quot;headerlink&quot; title=&quot;本文作者：tongt
-    
-    </summary>
-    
-      <category term="life" scheme="https://stongtong.github.io/categories/life/"/>
-    
-    
-      <category term="life" scheme="https://stongtong.github.io/tags/life/"/>
     
   </entry>
   

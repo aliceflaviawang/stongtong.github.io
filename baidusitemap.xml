@@ -4,17 +4,41 @@
 
     
   <url>
-    <loc>https://stongtong.github.io/2017/03/25/aaa/</loc>
-    <lastmod>2017-03-25T02:51:49.594Z</lastmod>
+    <loc>https://stongtong.github.io/2017/03/28/Python%E2%80%94%E2%80%94%E6%8E%A5%E5%8F%A3%E4%B8%ADself/</loc>
+    <lastmod>2017-03-30T12:44:04.680Z</lastmod>
     <data>
         <display>
-        <title>aaa</title>
-        <pubTime>2017-03-25T02:51:49.000Z</pubTime>
+        <title>Python——接口中self</title>
+        <pubTime>2017-03-28T13:34:34.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>接口</tag>
+         
+        <tag>self</tag>
+         
+         
+           
+             
+              <breadCrumb title="python" url="https://stongtong.github.io/categories/python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://stongtong.github.io/2017/03/30/Python%E2%80%94%E2%80%943-6-1%E6%94%B9%E5%8A%A8/</loc>
+    <lastmod>2017-03-30T02:29:21.326Z</lastmod>
+    <data>
+        <display>
+        <title>Python——3.6.1改动</title>
+        <pubTime>2017-03-30T02:29:21.000Z</pubTime>
         
          
            
              
-              <breadCrumb title="photo" url="https://stongtong.github.io/categories/photo/"/>
+              <breadCrumb title="Thu Mar 30 2017 10:29:21 GMT+0800 (中国标准时间)" url="https://stongtong.github.io/categories/Thu-Mar-30-2017-10-29-21-GMT-0800-%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4/"/>
           
         </display>
     </data>
