@@ -41,9 +41,10 @@
     <link href="https://stongtong.github.io/2017/03/28/Python%E2%80%94%E2%80%94%E6%8E%A5%E5%8F%A3%E4%B8%ADself/"/>
     <id>https://stongtong.github.io/2017/03/28/Python——接口中self/</id>
     <published>2017-03-28T13:34:34.000Z</published>
-    <updated>2017-03-30T13:05:44.672Z</updated>
+    <updated>2017-03-30T13:46:41.809Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://onco8ybky.bkt.clouddn.com/boy.jpg" alt="布列农--《男孩》"><br><a id="more"></a><br>学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。</p>
+    <content type="html"><![CDATA[<span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="http://onco8ybky.bkt.clouddn.com/1.png" class="full-image"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span>
+<p>学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。<br><a id="more"></a></p>
 <h3 id="self说明"><a href="#self说明" class="headerlink" title="self说明"></a>self说明</h3><p><strong> self代表类的实例，而非类 </strong></p>
 <h3 id="实例1"><a href="#实例1" class="headerlink" title="实例1"></a>实例1</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">class SelfTest:</div><div class="line">	def prt(self):</div><div class="line">		print(self)</div><div class="line">		print(self.__class__)</div><div class="line">		</div><div class="line">t = SelfTest()</div><div class="line">t.prt()</div></pre></td></tr></table></figure>
 <p>计算结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;__main__.SelfTest object at 0x00000093147BD518&gt;</div><div class="line">&lt;class &apos;__main__.SelfTest&apos;&gt;</div></pre></td></tr></table></figure></p>
@@ -80,7 +81,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://onco8ybky.bkt.clouddn.com/boy.jpg&quot; alt=&quot;布列农--《男孩》&quot;&gt;&lt;br&gt;
+      &lt;span itemprop=&quot;image&quot; itemscope itemtype=&quot;http://schema.org/ImageObject&quot;&gt;&lt;img itemprop=&quot;url image&quot; src=&quot;http://onco8ybky.bkt.clouddn.com/1.png&quot; class=&quot;full-image&quot; /&gt;&lt;meta itemprop=&quot;width&quot; content=&quot;auto&quot;&gt;&lt;meta itemprop=&quot;height&quot; content=&quot;auto&quot;&gt;&lt;/span&gt;
+&lt;p&gt;学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。&lt;br&gt;
     
     </summary>
     
@@ -179,31 +181,6 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://stongtong.github.io/2016/08/29/Hello%20World/"/>
-    <id>https://stongtong.github.io/2016/08/29/Hello World/</id>
-    <published>2016-08-29T08:52:43.000Z</published>
-    <updated>2017-03-25T02:50:45.030Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to XTong note.</p>
-<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to XTong note.&lt;/p&gt;
-&lt;div class=&quot;note primary&quot;&gt;&lt;h4 id=&quot;本文作者：tongtong&quot;&gt;&lt;a href=&quot;#本文作者：tongtong&quot; class=&quot;headerlink&quot; title=&quot;本文作者：tongt
-    
-    </summary>
-    
-      <category term="life" scheme="https://stongtong.github.io/categories/life/"/>
-    
-    
-      <category term="life" scheme="https://stongtong.github.io/tags/life/"/>
-    
-  </entry>
-  
-  <entry>
     <title>github搭建各站记录</title>
     <link href="https://stongtong.github.io/2016/08/29/GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
     <id>https://stongtong.github.io/2016/08/29/GitHub搭建个人网站记录/</id>
@@ -265,6 +242,31 @@
       <category term="github" scheme="https://stongtong.github.io/tags/github/"/>
     
       <category term="person" scheme="https://stongtong.github.io/tags/person/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://stongtong.github.io/2016/08/29/Hello%20World/"/>
+    <id>https://stongtong.github.io/2016/08/29/Hello World/</id>
+    <published>2016-08-29T08:52:43.000Z</published>
+    <updated>2017-03-25T02:50:45.030Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to XTong note.</p>
+<div class="note primary"><h4 id="本文作者：tongtong"><a href="#本文作者：tongtong" class="headerlink" title="本文作者：tongtong"></a>本文作者：tongtong</h4><h4 id="本文链接：https-stongtong-github-io-2016-05-05-重-庆"><a href="#本文链接：https-stongtong-github-io-2016-05-05-重-庆" class="headerlink" title="本文链接：https://stongtong.github.io/2016/05/05/重-庆/"></a>本文链接：<a href="https://stongtong.github.io/2016/05/05/重-庆/">https://stongtong.github.io/2016/05/05/重-庆/</a></h4><h4 id="版权申明：网站内容为tongtong所有，转载请注明出处。"><a href="#版权申明：网站内容为tongtong所有，转载请注明出处。" class="headerlink" title="版权申明：网站内容为tongtong所有，转载请注明出处。"></a>版权申明：网站内容为tongtong所有，转载请注明出处。</h4></div>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to XTong note.&lt;/p&gt;
+&lt;div class=&quot;note primary&quot;&gt;&lt;h4 id=&quot;本文作者：tongtong&quot;&gt;&lt;a href=&quot;#本文作者：tongtong&quot; class=&quot;headerlink&quot; title=&quot;本文作者：tongt
+    
+    </summary>
+    
+      <category term="life" scheme="https://stongtong.github.io/categories/life/"/>
+    
+    
+      <category term="life" scheme="https://stongtong.github.io/tags/life/"/>
     
   </entry>
   

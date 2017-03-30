@@ -89,15 +89,18 @@
 
 
 
+<meta name="description" content="学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python——接口中self">
 <meta property="og:url" content="https://stongtong.github.io/2017/03/28/Python——接口中self/index.html">
 <meta property="og:site_name" content="XTong notes">
-<meta property="og:image" content="http://onco8ybky.bkt.clouddn.com/boy.jpg">
-<meta property="og:updated_time" content="2017-03-30T13:05:44.672Z">
+<meta property="og:description" content="学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。">
+<meta property="og:image" content="http://onco8ybky.bkt.clouddn.com/1.png">
+<meta property="og:updated_time" content="2017-03-30T13:46:41.809Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python——接口中self">
-<meta name="twitter:image" content="http://onco8ybky.bkt.clouddn.com/boy.jpg">
+<meta name="twitter:description" content="学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。">
+<meta name="twitter:image" content="http://onco8ybky.bkt.clouddn.com/1.png">
 
 
 
@@ -409,7 +412,8 @@
       
 
       
-        <p><img src="http://onco8ybky.bkt.clouddn.com/boy.jpg" alt="布列农--《男孩》"><br><a id="more"></a><br>学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。</p>
+        <span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="http://onco8ybky.bkt.clouddn.com/1.png" class="full-image"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span>
+<p>学习Python，就顺便看了一下安装自带的接口文档，但是每个函数中都有一个self的参数，结果就顺便百度了一下，大家都已经讨论的很多了，在这总结记录一下，方便自己学习。<br><a id="more"></a></p>
 <h3 id="self说明"><a href="#self说明" class="headerlink" title="self说明"></a>self说明</h3><p><strong> self代表类的实例，而非类 </strong></p>
 <h3 id="实例1"><a href="#实例1" class="headerlink" title="实例1"></a>实例1</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">class SelfTest:</div><div class="line">	def prt(self):</div><div class="line">		print(self)</div><div class="line">		print(self.__class__)</div><div class="line">		</div><div class="line">t = SelfTest()</div><div class="line">t.prt()</div></pre></td></tr></table></figure>
 <p>计算结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;__main__.SelfTest object at 0x00000093147BD518&gt;</div><div class="line">&lt;class &apos;__main__.SelfTest&apos;&gt;</div></pre></td></tr></table></figure></p>
